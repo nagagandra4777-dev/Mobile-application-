@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Mobile App"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your everyday entertainment toolkit"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/galleryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🖼  Gallery"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/musicButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎵  Music Player"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cutterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✂  Music Cutter"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gamesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧩  Kids Games"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/namesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔤  Names & Meanings"
+            app:cornerRadius="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
