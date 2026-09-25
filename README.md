@@ -1,13 +1,10 @@
-# MyMobileApp
+# Multi Mobile Apps
 
-Java Android starter project for:
-- Gallery
-- Music Player
-- Music Cutter
-- Kids Games
-- Names & Meanings
+Android Studio Java starter project containing:
+- Gallery picker
+- Music player with audio-file selection
+- Music cutter placeholder UI entry
+- Kids puzzle entry
+- Names & meanings entry
 
-Open this folder in Android Studio and sync Gradle.
-
-The current build contains a polished Home screen and navigation placeholders.
-Next modules can be implemented one by one.
+Open this folder in Android Studio and let Gradle sync.
